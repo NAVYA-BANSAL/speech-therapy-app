@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    /* Remove default margin */
+    font-family: Arial, sans-serif;
+    /* Set a default font */
+    background-color: #4b4949;
+    /* Dark grey background for the whole screen */
+    color: #f0f0f0;
+    /* Default light text color for the whole page */
+    height: 100vh;
+    /* Ensure it takes full height of the viewport */
+}
+
+.about-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    /* Center the container with some margin from the top */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Slightly transparent background for the container */
+    color: #f0f0f0;
+    /* Light text color for contrast */
+    border-radius: 8px;
+    /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Soft shadow effect */
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    /* Bright green for the app name */
+    margin-bottom: 20px;
+    /* Spacing below the header */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #e0e0e0;
+    /* Slightly lighter color for subheadings */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    /* Spacing between paragraphs */
+}
+
+a {
+    color: #2196F3;
+    /* Bright blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

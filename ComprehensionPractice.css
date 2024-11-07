@@ -1,0 +1,47 @@
+/* Center alignment for questions */
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Adjust font size */
+.question-container h3 {
+    font-size: 1rem;
+    /* Decreased font size for questions */
+    margin-bottom: 10px;
+}
+
+.question-container p {
+    font-size: 0.9rem;
+    /* Slightly smaller font size for paragraphs */
+    margin-bottom: 15px;
+    max-width: 600px;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+    padding: 8px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Centering the main content */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+}

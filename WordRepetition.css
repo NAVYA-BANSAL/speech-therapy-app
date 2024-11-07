@@ -1,0 +1,108 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    /* Light background color */
+}
+
+/* Center the main container */
+h1 {
+    color: #333;
+    /* Darker text for header */
+}
+
+.level-buttons {
+    display: flex;
+    justify-content: center;
+    /* Center buttons */
+    gap: 10px;
+    /* Space between buttons */
+    margin-bottom: 20px;
+    /* Space below the button row */
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green background for buttons */
+    color: white;
+    /* White text color */
+    border: none;
+    /* No border */
+    padding: 10px 15px;
+    /* Padding for button */
+    text-align: center;
+    /* Center text */
+    text-decoration: none;
+    /* No underline */
+    display: inline-block;
+    /* Inline block for button */
+    font-size: 16px;
+    /* Font size */
+    margin: 4px 2px;
+    /* Margin around buttons */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s;
+    /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+img {
+    max-width: 800px;
+    /* Set a larger size for images */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 20px 0;
+    /* Margin above and below images */
+}
+
+input {
+    padding: 10px;
+    /* Padding for input field */
+    font-size: 16px;
+    /* Font size */
+    border: 1px solid #ccc;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners */
+    width: 300px;
+    /* Fixed width for input */
+    margin-bottom: 10px;
+    /* Space below input field */
+}
+
+input:focus {
+    border-color: #4CAF50;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove outline */
+}
+
+h2 {
+    color: #555;
+    /* Slightly lighter text for questions */
+}
+
+button:disabled {
+    background-color: #ccc;
+    /* Gray background for disabled buttons */
+    cursor: not-allowed;
+    /* Not allowed cursor for disabled */
+}
+
+.message {
+    color: #333;
+    /* Dark color for messages */
+    font-size: 18px;
+    /* Font size for messages */
+    margin: 20px 0;
+    /* Margin around messages */
+}
