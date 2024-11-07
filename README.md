@@ -1,3 +1,6 @@
+SpeechConnect App was made with the motive to provide free online speech-theraphy to the individual who is suffering from aphasia. It is a disease caused due to stroke. This app was made with the help of React.js. In this, we have included 3 exercises: Word Repetition , Sentence Formation and Comprehension practice. There are 3 levels: Beginner , intermediate and aadvanced with a progress tracker in it. User can also 'Reset Progress' to practice again. Hope this little contribution helps!!   
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
